@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/title_basic"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:title="@string/title_startup_calculator"
+            android:key="@string/key_startup_calculator"
+            app:iconSpaceReserved="false"
+            android:dialogTitle="start"
+            android:entries="@array/entries_startup_calculator"
+            android:entryValues="@array/values_startup_calculator" />
+
+        <!--
+        app:useSimpleSummaryProvider="true"
+        -->
+
+        <SwitchPreferenceCompat
+            android:title="@string/title_round_decimal"
+            android:key="@string/key_round_decimal"
+            app:iconSpaceReserved="false"
+            android:summary="@string/summary_round_off"/>
+
+        <ListPreference
+            android:dependency="@string/key_round_decimal"
+            android:title="@string/title_round_decimal_to"
+            android:key="@string/key_round_decimal_to"
+            app:iconSpaceReserved="false"
+            android:entries="@array/entries_round_decimal"
+            android:entryValues="@array/values_round_decimal"
+            app:useSimpleSummaryProvider="true" />
+
+        <SwitchPreferenceCompat
+            android:title="@string/title_history"
+            android:key="@string/key_history"
+            app:iconSpaceReserved="false"
+            android:defaultValue="true"
+            android:summary="" />
+
+        <CheckBoxPreference
+            android:dependency="@string/key_history"
+            android:title="@string/title_history_clear"
+            android:key="@string/key_history_clear"
+            app:iconSpaceReserved="false" />
+
+        <CheckBoxPreference
+            android:dependency="@string/key_history"
+            android:title="@string/title_history_save"
+            android:key="@string/key_history_save"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_customization"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="@string/title_appearance"
+            android:key="@string/key_appearance"
+            app:iconSpaceReserved="false"
+            android:summary="@string/summary_appearance"/>
+
+        <ListPreference
+            android:title="@string/title_language"
+            android:key="@string/key_language"
+            android:dialogTitle="@string/title_dialog_language"
+            app:iconSpaceReserved="false"
+            android:entries="@array/entries_language"
+            android:entryValues="@array/values_language"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            android:title="@string/title_font"
+            android:key="@string/key_font"
+            android:dialogTitle="@string/title_dialog_font"
+            app:iconSpaceReserved="false"
+            android:entries="@array/entries_font"
+            android:entryValues="@array/values_font"
+            app:useSimpleSummaryProvider="true" />
+
+        <SeekBarPreference
+            android:title="@string/title_font_size"
+            android:key="@string/key_font_size"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            android:title="@string/title_numerals"
+            android:key="@string/key_numerals"
+            android:dialogTitle="@string/title_dialog_numerals"
+            app:iconSpaceReserved="false"
+            android:entries="@array/entries_numerals"
+            android:entryValues="@array/values_numerals"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_donate"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="@string/title_donate_coffee"
+            android:key="@string/key_donate_coffee"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:title="@string/title_premium"
+            android:key="@string/key_premium"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:title="@string/title_share_app"
+            android:key="@string/key_share_app"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="@string/title_version"
+            android:key="@string/key_version"
+            app:iconSpaceReserved="false"
+            android:summary="@string/summary_version" />
+
+        <Preference
+            android:title="@string/title_app_details"
+            android:key="@string/key_app_details"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:title="@string/title_privacy_policy"
+            android:key="@string/key_privacy_policy"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
