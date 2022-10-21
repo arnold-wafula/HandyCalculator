@@ -1,126 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <!-- Settings Page -->
-    <string name="title_general">General</string>
-    <string name="title_status">Status</string>
-    <string name="title_dialog_status">Update status</string>
-    <string name="title_auto_reply">Auto reply</string>
-    <string name="title_dialog_reply_time">Select Time</string>
-    <string name="title_auto_reply_time">Auto reply time</string>
-    <string name="title_auto_reply_msg">Auto reply message</string>
-    <string name="title_round_off_to">Round off to</string>
-    <string name="title_acc_settings">Account settings</string>
-    <string name="title_app">App</string>
-    <string name="title_auto_download">Auto download</string>
-    <string name="title_new_msg_notif">New message notification</string>
-
-    <!--
-    <string name="title_about">About</string>
-    -->
-
-    <!--
-    <string name="title_version">Version</string>
-    -->
-
-    <!--
-    <string name="title_privacy_policy">Privacy policy</string>
-    -->
-
-    <string name="title_dialog_auto_reply_msg">Select Message</string>
-
-    <string name="title_round_off">Round off</string>
-    <string name="title_dialog_round_off_to">Select value</string>
-    <string name="title_basic_category">Basic</string>
-    <string name="title_theme_category">Theming</string>
-    <string name="title_select_theme">Use Dark Theme</string>
-
-    <string name="key_status">key_status</string>
-
-    <!--
-    <string name="key_privacy_policy">key_privacy_policy</string>
-    -->
-
-    <string name="key_auto_reply">key_auto_reply</string>
-    <string name="key_auto_reply_time">key_auto_reply_time</string>
-    <string name="key_auto_reply_msg">key_auto_reply_msg</string>
-    <string name="key_account_settings">key_account_settings</string>
-    <string name="key_auto_download">key_auto_download</string>
-    <string name="key_new_msg_notif">key_new_msg_notif</string>
-
-    <!--
-    <string name="key_version">key_version</string>
-    -->
-
-    <string name="key_select_theme">key_select_theme</string>
-    <string name="key_round_off">key_round_off</string>
-    <string name="key_round_off_to">key_round_off_to</string>
-
-    <string name="summary_acc_settings">Privacy, security</string>
-    <string name="summary_auto_download">Automatically download data when connected to wi-fi</string>
-    <!--
-    <string name="summary_version">3.5</string>
-    -->
-
-    <string name="summary_auto_reply">Automatically reply to a message</string>
-    <string name="summary_round_off">Round off results to the nearest whole number</string>
-    <string name="defValue_status">Turn wounds into wisdom</string>
-
-    <string-array name="entries_auto_reply_time">
-        <item>15 mins</item>    <!-- index 0 -->
-        <item>30 mins</item>    <!-- index 1 -->
-        <item>1 hour</item>     <!-- index 2 -->
-        <item>2 hours</item>    <!-- index 3 -->
-        <item>3 hours</item>    <!-- index 4 -->
-    </string-array>
-
-    <string-array name="values_auto_reply_time">
-        <item>15</item>    <!-- index 0 -->
-        <item>30</item>    <!-- index 1 -->
-        <item>60</item>    <!-- index 2 -->
-        <item>120</item>   <!-- index 3 -->
-        <item>180</item>   <!-- index 4 -->
-    </string-array>
-
-    <string-array name="pref_auto_reply_messages">
-        <item>Available</item>                       <!-- index 0 -->
-        <item>Busy</item>                            <!-- index 1 -->
-        <item>Do not disturb</item>                  <!-- index 2 -->
-        <item>Can not talk, chat only</item>         <!-- index 3 -->
-    </string-array>
-
-
-
-
-    <!-- Account Settings Page -->
-    <string name="title_privacy">Privacy</string>
-    <string name="title_security">Security</string>
-    <string name="title_log_out">Log out</string>
-    <string name="title_delete_account">Delete my account</string>
-    <string name="title_public_info">My public info</string>
-
-    <string name="key_public_info">key_public_info</string>
-    <string name="key_log_out">key_log_out</string>
-    <string name="key_delete_account">key_delete_account</string>
-
-    <string name="summary_delete_account">This cannot be undone</string>
-
-    <string-array name="entries_public_info">
-        <item>Status</item>             <!-- index 0 -->
-        <item>Birth date</item>         <!-- index 1 -->
-        <item>Last seen</item>          <!-- index 2 -->
-        <item>Read receipts</item>      <!-- index 3 -->
-        <item>Profile picture</item>    <!-- index 4 -->
-    </string-array>
-
-    <string-array name="values_public_info">
-        <item>0</item>    <!-- index 0 -->
-        <item>1</item>    <!-- index 1 -->
-        <item>2</item>    <!-- index 2 -->
-        <item>3</item>    <!-- index 3 -->
-        <item>4</item>    <!-- index 4 -->
-    </string-array>
-
     <string name="title_basic">Basic</string>
     <string name="title_startup_calculator">Startup calculator</string>
     <string name="title_dialog_startup_calculator">Choose startup calculator</string>
@@ -133,10 +12,6 @@
     <string name="key_dialog_round_decimal">key_dialog_round_decimal</string>
     <string name="title_history">History</string>
     <string name="key_history">key_history</string>
-    <string name="title_history_clear">Clear History</string>
-    <string name="key_history_clear">key_history_clear</string>
-    <string name="title_history_save">Save History</string>
-    <string name="key_history_save">key_history_save</string>
 
     <string name="title_customization">Customization</string>
     <string name="title_appearance">Appearance &amp; Theming</string>
@@ -151,10 +26,7 @@
     <string name="key_language">key_language</string>
     <string name="title_dialog_language">Choose language</string>
     <string name="key_dialog_language">key_dialog_language</string>
-    <string name="title_font">Font</string>
-    <string name="key_font">key_font</string>
-    <string name="title_dialog_font">Choose font</string>
-    <string name="key_dialog_font">key_dialog_font</string>
+
     <string name="title_font_size">Font size</string>
     <string name="key_font_size">key_font_size</string>
     <string name="title_numerals">Numerals</string>
@@ -162,7 +34,7 @@
     <string name="title_dialog_numerals">Choose numerals</string>
     <string name="key_dialog_numerals">key_dialog_numerals</string>
 
-    <string name="title_donate">Donate</string>
+    <string name="title_donate">Support Development</string>
     <string name="title_donate_coffee">Buy me a coffee</string>
     <string name="key_donate_coffee">key_donate_coffee</string>
     <string name="title_premium">Premium</string>
@@ -185,6 +57,8 @@
     <string name="title_patreon">Patreon</string>
     <string name="key_patreon">key_patreon</string>
 
+    <string name="summary_round_off">Round off results to the nearest whole number</string>
+    <string name="summary_history">Show the history of your calculations</string>
     <string name="summary_appearance">Theme, Change Appearance</string>
     <string name="summary_version">1.0</string>
 
@@ -199,10 +73,10 @@
     </string-array>
 
     <string-array name="entries_round_decimal">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Four</item>
+        <item>One decimal place</item>
+        <item>Two decimal places</item>
+        <item>Three decimal places</item>
+        <item>Four decimal places</item>
     </string-array>
 
     <string-array name="values_round_decimal">

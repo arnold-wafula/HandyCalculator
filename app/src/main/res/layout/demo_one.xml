@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lemonboy.handycalculator.MainActivity">
+
+    <ImageButton
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:padding="15sp"
+        android:src="@drawable/dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/themedn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:padding="15sp"
+        android:src="@drawable/daynight"
+        android:text="Day/Night"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageButton
+        android:id="@+id/fullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:padding="15sp"
+        android:src="@drawable/fullscreen"
+        android:text="Fullscreen"
+        app:layout_constraintEnd_toStartOf="@+id/themedn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/temp"
+        style="@style/number"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@id/result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/result"
+        style="@style/number"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textAlignment="textEnd"
+        app:layout_constraintBottom_toTopOf="@id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1">
+
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/clear"
+                style="@style/number"
+                android:layout_weight="1"
+                android:text="C"
+                android:textColor="@color/teal_700" />
+
+            <ImageView
+                android:id="@+id/backspace"
+                android:layout_height="30sp"
+                android:layout_gravity="center_vertical"
+
+                android:layout_weight="1"
+                android:src="@drawable/ic_outline_backspace_24" />
+
+
+            <TextView
+                android:id="@+id/mod"
+
+                style="@style/number"
+                android:text="%"
+                android:textColor="@color/teal_700"
+
+                />
+
+            <TextView
+                android:id="@+id/divide"
+                style="@style/number"
+
+                android:text="/"
+                android:textColor="@color/teal_700" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/seven"
+                style="@style/number"
+
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/eight"
+                style="@style/number"
+
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/nine"
+                style="@style/number"
+
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/multiply"
+                style="@style/number"
+                android:text="*"
+                android:textColor="@color/teal_700" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/four"
+                style="@style/number"
+                android:text="4"
+
+                />
+
+            <TextView
+                android:id="@+id/five"
+                style="@style/number"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/six"
+                style="@style/number"
+                android:text="6"
+                />
+
+            <TextView
+                android:id="@+id/plus"
+                style="@style/number"
+                android:text="+"
+                android:textColor="@color/teal_700" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/one"
+                style="@style/number"
+                android:text="1"
+                />
+
+            <TextView
+                android:id="@+id/two"
+                style="@style/number"
+                android:text="2"
+                />
+
+            <TextView
+                android:id="@+id/three"
+                style="@style/number"
+                android:text="3"
+                />
+
+            <TextView
+                android:id="@+id/minus"
+                style="@style/number"
+                android:text="-"
+                android:textColor="@color/teal_700" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/doublezero"
+                style="@style/number"
+                android:text="00"
+                />
+
+            <TextView
+                android:id="@+id/zero"
+                style="@style/number"
+                android:text="0"
+                />
+
+            <TextView
+                android:id="@+id/decimal"
+                style="@style/number"
+                android:text="."
+                />
+
+            <TextView
+                android:id="@+id/equals"
+                style="@style/number"
+                android:text="="
+                android:textColor="@color/teal_700" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

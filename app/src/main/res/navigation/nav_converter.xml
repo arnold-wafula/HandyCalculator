@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_converter"
+    app:startDestination="@id/converterFragment">
+
+    <fragment
+        android:id="@+id/converterFragment"
+        android:name="com.lemonboy.handycalculator.converter.ConverterFragment"
+        android:label="ConverterFragment">
+
+        <action
+            android:id="@+id/action_converterFragment_to_weightFragment"
+            app:destination="@id/weightFragment" />
+
+        <action
+            android:id="@+id/action_converterFragment_to_volumeFragment"
+            app:destination="@id/volumeFragment" />
+
+        <action
+            android:id="@+id/action_converterFragment_to_lengthFragment"
+            app:destination="@id/lengthFragment" />
+
+        <action
+            android:id="@+id/action_converterFragment_to_tempFragment"
+            app:destination="@id/tempFragment" />
+
+        <action
+            android:id="@+id/action_converterFragment_to_energyFragment"
+            app:destination="@id/energyFragment" />
+
+        <action
+            android:id="@+id/action_converterFragment_to_currencyFragment"
+            app:destination="@id/currencyFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/weightFragment"
+        android:name="com.lemonboy.handycalculator.ui.weight.WeightFragment"
+        android:label="WeightFragment" />
+
+    <fragment
+        android:id="@+id/volumeFragment"
+        android:name="com.lemonboy.handycalculator.ui.volume.VolumeFragment"
+        android:label="VolumeFragment" />
+
+    <fragment
+        android:id="@+id/lengthFragment"
+        android:name="com.lemonboy.handycalculator.ui.length.LengthFragment"
+        android:label="LengthFragment" />
+
+    <fragment
+        android:id="@+id/tempFragment"
+        android:name="com.lemonboy.handycalculator.ui.temperature.TempFragment"
+        android:label="TempFragment" />
+
+    <fragment
+        android:id="@+id/energyFragment"
+        android:name="com.lemonboy.handycalculator.ui.energy.EnergyFragment"
+        android:label="EnergyFragment" />
+
+    <fragment
+        android:id="@+id/currencyFragment"
+        android:name="com.lemonboy.handycalculator.ui.currency.CurrencyFragment"
+        android:label="CurrencyFragment" />
+
+</navigation>

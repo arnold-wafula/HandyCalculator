@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icon_calculator"
+            android:title="@string/menu_item_calc"/>
+
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/icon_weight"
+            android:title="@string/menu_item_weight"/>
+
+        <item
+            android:id="@+id/nav_volume"
+            android:icon="@drawable/icon_volume"
+            android:title="@string/menu_item_volume"/>
+
+        <item
+            android:id="@+id/nav_length"
+            android:icon="@drawable/icon_length"
+            android:title="@string/menu_item_length"/>
+
+        <item
+            android:id="@+id/nav_temp"
+            android:icon="@drawable/icon_temperature"
+            android:title="@string/menu_item_temperature"/>
+
+        <item
+            android:id="@+id/nav_energy"
+            android:icon="@drawable/icon_energy"
+            android:title="@string/menu_item_energy"/>
+
+        <item
+            android:id="@+id/nav_currency"
+            android:icon="@drawable/icon_currency"
+            android:title="@string/menu_item_currency"/>
+    </group>
+
+    <item android:title="@string/settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/menu_item_settings"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_bottom"
+    app:startDestination="@id/nav_calculator">
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.lemonboy.handycalculator.ui.calculator.CalculatorFragment"
+        android:label="@string/nav_item_calculator"
+        tools:layout="@layout/calculator_fragment">
+
+        <!--
+        <action
+            android:id="@+id/action_nav_calculator_to_historyFragment"
+            app:destination="@id/historyFragment"/>
+        -->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_converter"
+        android:name="com.lemonboy.handycalculator.converter.ConverterFragment"
+        android:label="@string/nav_item_converter"
+        tools:layout="@layout/converter_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_health"
+        android:name="com.lemonboy.handycalculator.ui.health.HealthFragment"
+        android:label="@string/nav_item_health"
+        tools:layout="@layout/health_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.lemonboy.handycalculator.ui.favorites.FavoritesFragment"
+        android:label="@string/nav_item_favorites"
+        tools:layout="@layout/favorites_fragment"/>
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.lemonboy.handycalculator.ui.history.HistoryFragment"
+        android:label="@string/nav_item_history"
+        tools:layout="@layout/history_fragment"/>
+
+    <!--
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.lemonboy.handycalculator.ui.settings.SettingsFragment"
+        android:label="@string/nav_item_settings"
+        tools:layout="@xml/main_settings" />
+    -->
+</navigation>

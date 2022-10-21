@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+</PreferenceScreen>
+<!--
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="@string/title_privacy"
+        app:iconSpaceReserved="false">
+
+        <MultiSelectListPreference
+            android:title="@string/title_public_info"
+            android:key="@string/key_public_info"
+            app:iconSpaceReserved="false"
+            android:entries="@array/entries_public_info"
+            android:entryValues="@array/values_public_info" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/title_log_out"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:title="@string/title_log_out"
+            android:key="@string/key_log_out"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:title="@string/title_delete_account"
+            android:key="@string/key_delete_account"
+            app:icon="@android:drawable/ic_menu_delete"
+            android:summary="@string/summary_delete_account" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
+-->

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Handy Calculator</string>
+    <string name="action_settings">le réglage</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="calc_fragment_label">Calculatrice</string>
+
+    <string name="next">Le prochain</string>
+    <string name="previous">Précédente</string>
+
+    <string name="problem">Problem</string>
+    <string name="answer">Answer</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_delete">⌫</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_divide">÷</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_multiply">×</string>
+    <string name="button_zero">0</string>
+    <string name="button_dot">.</string>
+    <string name="button_equals">=</string>
+    <string name="button_minus">-</string>
+    <string name="button_plus">+</string>
+
+    <string name="button_clear">AC</string>
+    <string name="button_bracketIn">(</string>
+    <string name="button_bracketOut">)</string>
+
+    <!--Bottom navigation strings-->
+    <string name="nav_item_calculator">Calculator</string>
+    <string name="nav_item_converter">Converter</string>
+    <string name="nav_item_health">Health</string>
+    <string name="nav_item_favorites">Favorites</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_item_history">History</string>
+
+    <string name="menu_item_calc">Calculatrice</string>
+    <string name="menu_item_weight">le poids</string>
+    <string name="menu_item_volume">Le volume</string>
+    <string name="menu_item_length">la longueur</string>
+    <string name="menu_item_energy">l\' énergie</string>
+    <string name="menu_item_currency">la monnaie</string>
+    <string name="menu_item_temperature">Température</string>
+    <string name="menu_item_settings">le réglages</string>
+    <string name="menu_item_list">List</string>
+    <string name="menu_item_grid">Grid</string>
+    <string name="menu_account_settings">Account</string>
+    <string name="menu_history_settings">History</string>
+    <string name="menu_support_settings">Support</string>
+
+    <string name="settings">le réglages</string>
+    <string name="account_settings">le compte</string>
+
+    <string name="nav_open">Ouverte</string>
+    <string name="nav_close">proche</string>
+
+    <string name="nav_header_title">Noscalculator</string>
+
+    <string name="weight_label">Weight Fragment</string>
+    <string name="volume_label">Volume Fragment</string>
+
+    <string name="convert">les convertir</string>
+
+    <!--Weight values-->
+    <string-array name="weights">
+        <item>Carats</item>
+        <item>le milligramme</item>
+        <item>le centigramme</item>
+        <item>Décigramme</item>
+        <item>Grammes</item>
+        <item>Décagrammes</item>
+        <item>l\' hectogramme</item>
+        <item>Kilogrammes</item>
+        <item>Tonnes métriques</item>
+        <item>Onces</item>
+        <item>la fourrières</item> <!-- pound in french -->
+        <item>la pierre</item> <!-- stone in french -->
+        <item>Tonnes courtes (US)</item>
+        <item>Tonnes longues (UK)</item>
+    </string-array>
+
+    <!--Volume values-->
+    <string-array name="volumes">
+        <item>millilitres</item>
+        <item>Centimètres cubes</item>
+        <item>le litre</item>
+        <item>Mètres cubes</item>
+    </string-array>
+
+    <!--Length values-->
+    <string-array name="lengths">
+        <item>Millimètres</item> <!--0-->
+        <item>Centimètres</item> <!--1-->
+        <item>Mètres</item> <!--2-->
+        <item>Kilomètres</item> <!--3-->
+        <item>Pouces</item> <!--4-->
+    </string-array>
+
+    <!--Temperature values-->
+    <string-array name="temps">
+        <item>Celsius</item> <!--0-->
+        <item>Fahrenheit</item> <!--1-->
+        <item>Kelvin</item> <!--2-->
+    </string-array>
+
+    <string-array name="currencies">
+        <item>EUR</item>
+
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+    </string-array>
+
+    <string-array name="currencies_two">
+        <item>USD</item>
+
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+    </string-array>
+
+    <!--Currency page strings-->
+    <string name="currency">la monnaie</string>
+    <string name="dot">.</string>
+    <string name="afn">AFN</string>
+    <string name="refresh">rafraîchir</string>
+    <string name="converter">le convertisseur</string>
+    <string name="from">De</string>
+    <string name="to">À</string>
+    <string name="amount">la quantité</string>
+    <string name="result">le résultat</string>
+    <string name="converted_amount">Montant converti</string>
+
+    <string name="carats">carats</string>
+    <string name="milligrams">le milligramme</string>
+    <string name="centigrams">le centigramme</string>
+    <string name="decigrams">Décigramme</string>
+    <string name="grams">Grammes</string>
+    <string name="dekagrams">Décagrammes</string>
+    <string name="hectograms">l\' hectogramme</string>
+    <string name="kilograms">Kilogrammes</string>
+    <string name="m_tonnes">Tonnes métriques</string>
+    <string name="ounces">Onces</string>
+    <string name="pounds">la fourrière</string>
+    <string name="stone">la pierre</string>
+    <string name="s_tons">Tonnes courtes (US)</string>
+    <string name="l_tons">Tonnes longues (UK)</string>
+    <string name="choose">Choisir</string>
+
+    <!-- DEMO STRINGS -->
+    <string name="text_view_hint">0</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="x">×</string>
+    <string name="_minus">-</string>
+    <string name="_plus">+</string>
+    <string name="_plusminus">⁺∕₋</string>
+    <string name="_percent">%</string>
+    <string name="_splash">÷</string>
+    <string name="_0">0</string>
+    <string name="_dot">.</string>
+    <string name="_equals">=</string>
+    <string name="parleft">(</string>
+    <string name="parright">)</string>
+    <string name="mc">mc</string>
+    <string name="m">m+</string>
+    <string name="mminus">m-</string>
+    <string name="mr">mr</string>
+    <string name="_2nd">2nd</string>
+    <string name="x2">x²</string>
+    <string name="x3">x³</string>
+    <string name="xy">Xʸ</string>
+    <string name="ex">eˣ</string>
+    <string name="_10x">10x</string>
+    <string name="_1_x">1/x</string>
+    <string name="empty">-</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="ee">EE</string>
+    <string name="e">e</string>
+    <string name="rad">rad</string>
+    <string name="conh">conh</string>
+    <string name="sinh">sinh</string>
+    <string name="tanh">tanh</string>
+    <string name="π">π</string>
+    <string name="rand">rand</string>
+    <string name="rad1">Rad</string>
+    <string name="rand1">Rand</string>
+    <string name="oo">x!</string>
+    <string name="log100">log10</string>
+    <string name="ln">ln</string>
+    <string name="_2_x">2√x</string>
+    <string name="_3_x">3√x</string>
+    <string name="y_x">y√x</string>
+    <string name="undo">↻</string>
+    <string name="redo">↺</string>
+    <string name="backspace">⌫</string>
+    <string name="ac">AC</string>
+    <string name="c">C</string>
+    <string name="scientific">Scientific</string>
+
+</resources>

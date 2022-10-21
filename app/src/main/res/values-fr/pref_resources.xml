@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_basic">Basic</string>
+    <string name="title_startup_calculator">Calculatrice de démarrage</string>
+    <string name="title_dialog_startup_calculator">Choisissez la calculatrice de démarrage</string>
+    <string name="key_startup_calculator">key_startup_calculator</string>
+    <string name="title_round_decimal">Arrondir la décimale</string>
+    <string name="key_round_decimal">key_round_decimal</string>
+    <string name="title_round_decimal_to">Arrondir à</string>
+    <string name="key_round_decimal_to">key_round_decimal_to</string>
+    <string name="title_dialog_round_decimal">Nombre de décimales</string>
+    <string name="key_dialog_round_decimal">key_dialog_round_decimal</string>
+    <string name="title_history">Histoire</string>
+    <string name="key_history">key_history</string>
+
+    <string name="title_customization">Personnalisation</string>
+    <string name="title_appearance">Apparence &amp; Thématisation</string>
+    <string name="key_appearance">key_appearance</string>
+    <string name="title_theme">Thème</string>
+    <string name="key_theme">key_theme</string>
+    <string name="title_dialog_theme">Sélectionne un thème</string>
+    <string name="key_dialog_theme">key_dialog_theme</string>
+    <string name="title_use_theme">Utiliser le thème sombre</string>
+    <string name="key_use_theme">key_use_theme</string>
+    <string name="title_language">le langage</string>
+    <string name="key_language">key_language</string>
+    <string name="title_dialog_language">Choisissez la langue</string>
+    <string name="key_dialog_language">key_dialog_language</string>
+    <string name="title_font_size">Taille de police</string>
+    <string name="key_font_size">key_font_size</string>
+    <string name="title_numerals">Chiffres</string>
+    <string name="key_numerals">key_numerals</string>
+    <string name="title_dialog_numerals">Choisissez des chiffres</string>
+    <string name="key_dialog_numerals">key_dialog_numerals</string>
+
+    <string name="title_donate">Soutenir le développement</string>
+    <string name="title_donate_coffee">Achetez-moi un café</string>
+    <string name="key_donate_coffee">key_donate_coffee</string>
+    <string name="title_premium">Prime</string>
+    <string name="key_premium">key_premium</string>
+    <string name="title_share_app">Partager l\'application</string>
+    <string name="key_share_app">key_share_app</string>
+    <string name="title_about">À propos de</string>
+    <string name="key_about">key_about</string>
+    <string name="title_version">Version</string>
+    <string name="key_version">key_version</string>
+    <string name="title_app_details">les détails</string>
+    <string name="key_app_details">key_app_details</string>
+    <string name="title_privacy_policy">Privacy policy</string>
+    <string name="key_privacy_policy">key_privacy_policy</string>
+
+    <string name="title_mpesa">M-Pesa</string>
+    <string name="key_mpesa">key_mpesa</string>
+    <string name="title_paypal">Paypal</string>
+    <string name="key_paypal">key_paypal</string>
+    <string name="title_patreon">Patreon</string>
+    <string name="key_patreon">key_patreon</string>
+
+    <string name="summary_round_off">Arrondir les résultats au nombre entier le plus proche</string>
+    <string name="summary_history">Afficher l\'historique de vos calculs</string>
+    <string name="summary_appearance">Thème, Changer d\'apparence</string>
+    <string name="summary_version">1.0</string>
+
+    <string-array name="entries_startup_calculator">
+        <item>Calculatrice de base</item>
+        <item>Calculatrice scientifique</item>
+    </string-array>
+
+    <string-array name="values_startup_calculator">
+        <item>basic</item>
+        <item>scientific</item>
+    </string-array>
+
+    <string-array name="entries_round_decimal">
+        <item>Une décimale</item>
+        <item>Deux places de décimales</item>
+        <item>Trois décimales</item>
+        <item>Quatre décimales</item>
+    </string-array>
+
+    <string-array name="values_round_decimal">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="entries_language">
+        <item>Anglais</item>
+        <item>Français</item>
+        <item>Portugais</item>
+        <item>Kiswahili</item>
+    </string-array>
+
+    <string-array name="values_language">
+        <item>en</item>
+        <item>fr</item>
+        <item>po</item>
+        <item>sw</item>
+    </string-array>
+
+    <string-array name="entries_numerals">
+        <item>0123456789</item>
+    </string-array>
+
+    <string-array name="values_numerals">
+        <item>09</item>
+    </string-array>
+
+</resources>

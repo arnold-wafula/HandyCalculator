@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/ic_calculate_round"
+            android:title="@string/nav_item_calculator"/>
+
+        <item
+            android:id="@+id/nav_converter"
+            android:icon="@drawable/ic_convert_round"
+            android:title="@string/nav_item_converter"/>
+
+        <item
+            android:id="@+id/nav_health"
+            android:icon="@drawable/ic_health_round"
+            android:title="@string/nav_item_health"/>
+
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_favorite_round"
+            android:title="@string/nav_item_favorites"/>
+
+    </group>
+
+</menu>

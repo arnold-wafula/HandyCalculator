@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Handy Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="calc_fragment_label">Calculator</string>
+
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!--
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    -->
+
+    <string name="problem">Problem</string>
+    <string name="answer">Answer</string>
+    <string name="button_seven">7</string>
+    <string name="button_eight">8</string>
+    <string name="button_nine">9</string>
+    <string name="button_delete">⌫</string>
+    <string name="button_four">4</string>
+    <string name="button_five">5</string>
+    <string name="button_six">6</string>
+    <string name="button_divide">÷</string>
+    <string name="button_one">1</string>
+    <string name="button_two">2</string>
+    <string name="button_three">3</string>
+    <string name="button_multiply">×</string>
+    <string name="button_zero">0</string>
+    <string name="button_dot">.</string>
+    <string name="button_equals">=</string>
+    <string name="button_minus">-</string>
+    <string name="button_plus">+</string>
+
+    <string name="button_clear">AC</string>
+    <string name="button_bracketIn">(</string>
+    <string name="button_bracketOut">)</string>
+
+    <!--Bottom navigation strings-->
+    <string name="nav_item_calculator">Calculator</string>
+    <string name="nav_item_converter">Converter</string>
+    <string name="nav_item_health">Health</string>
+    <string name="nav_item_favorites">Favorites</string>
+    <string name="nav_item_settings">Settings</string>
+    <string name="nav_item_history">History</string>
+
+    <string name="menu_item_calc">Calculator</string>
+    <string name="menu_item_weight">Weight</string>
+    <string name="menu_item_volume">Volume</string>
+    <string name="menu_item_length">Length</string>
+    <string name="menu_item_energy">Energy</string>
+    <string name="menu_item_currency">Currency</string>
+    <string name="menu_item_temperature">Temperature</string>
+    <string name="menu_item_settings">Settings</string>
+    <string name="menu_item_list">List</string>
+    <string name="menu_item_grid">Grid</string>
+    <string name="menu_account_settings">Account</string>
+    <string name="menu_history_settings">History</string>
+    <string name="menu_support_settings">Support</string>
+
+    <string name="settings">Settings</string>
+    <string name="account_settings">Account</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="nav_header_title">Noscalculator</string>
+
+    <string name="weight_label">Weight Fragment</string>
+    <string name="volume_label">Volume Fragment</string>
+
+    <string name="convert">Convert</string>
+
+    <!--Weight values-->
+    <string-array name="weights">
+        <item>Carats</item>
+        <item>Milligrams</item>
+        <item>Centigrams</item>
+        <item>Decigrams</item>
+        <item>Grams</item>
+        <item>Dekagrams</item>
+        <item>Hectograms</item>
+        <item>Kilograms</item>
+        <item>Metric tonnes</item>
+        <item>Ounces</item>
+        <item>Pounds</item>
+        <item>Stone</item>
+        <item>Short tons (US)</item>
+        <item>Long tons (UK)</item>
+    </string-array>
+
+    <!--Volume values-->
+    <string-array name="volumes">
+        <item>Millilitres</item>
+        <item>Cubic centimeters</item>
+        <item>Liters</item>
+        <item>Cubic meters</item>
+    </string-array>
+
+    <!--Length values-->
+    <string-array name="lengths">
+        <item>Millimeters</item> <!--0-->
+        <item>Centimeters</item> <!--1-->
+        <item>Meters</item> <!--2-->
+        <item>Kilometers</item> <!--3-->
+        <item>Inches</item> <!--4-->
+    </string-array>
+
+    <!--Temperature values-->
+    <string-array name="temps">
+        <item>Celsius</item> <!--0-->
+        <item>Fahrenheit</item> <!--1-->
+        <item>Kelvin</item> <!--2-->
+    </string-array>
+
+    <string-array name="currencies">
+        <item>EUR</item>
+
+        <item>GBP</item>
+        <item>USD</item>
+        <item>DKK</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+    </string-array>
+
+    <string-array name="currencies_two">
+        <item>USD</item>
+
+        <item>DKK</item>
+        <item>EUR</item>
+        <item>GBP</item>
+
+        <item>SEK</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>JPY</item>
+    </string-array>
+
+    <!--Currency page strings-->
+    <string name="currency">Currency</string>
+    <string name="dot">.</string>
+    <string name="afn">AFN</string>
+    <string name="refresh">refresh</string>
+    <!--
+    <string name="contact">Contact</string>
+    -->
+    <string name="converter">Converter</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="amount">Amount</string>
+    <string name="result">Result</string>
+    <string name="converted_amount">Converted Amount</string>
+
+    <string name="carats">Carats</string>
+    <string name="milligrams">Milligrams</string>
+    <string name="centigrams">Centigrams</string>
+    <string name="decigrams">Decigrams</string>
+    <string name="grams">Grams</string>
+    <string name="dekagrams">Dekagrams</string>
+    <string name="hectograms">Hectograms</string>
+    <string name="kilograms">Kilograms</string>
+    <string name="m_tonnes">Metric tonnes</string>
+    <string name="ounces">Ounces</string>
+    <string name="pounds">Pounds</string>
+    <string name="stone">Stone</string>
+    <string name="s_tons">Short tons (US)</string>
+    <string name="l_tons">Long tons (UK)</string>
+    <string name="choose">Choose</string>
+
+    <!-- DEMO STRINGS -->
+    <string name="text_view_hint">0</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="x">×</string>
+    <string name="_minus">-</string>
+    <string name="_plus">+</string>
+    <string name="_plusminus">⁺∕₋</string>
+    <string name="_percent">%</string>
+    <string name="_splash">÷</string>
+    <string name="_0">0</string>
+    <string name="_dot">.</string>
+    <string name="_equals">=</string>
+    <string name="parleft">(</string>
+    <string name="parright">)</string>
+    <string name="mc">mc</string>
+    <string name="m">m+</string>
+    <string name="mminus">m-</string>
+    <string name="mr">mr</string>
+    <string name="_2nd">2nd</string>
+    <string name="x2">x²</string>
+    <string name="x3">x³</string>
+    <string name="xy">Xʸ</string>
+    <string name="ex">eˣ</string>
+    <string name="_10x">10x</string>
+    <string name="_1_x">1/x</string>
+    <string name="empty">-</string>
+    <string name="sin">sin</string>
+    <string name="cos">cos</string>
+    <string name="tan">tan</string>
+    <string name="ee">EE</string>
+    <string name="e">e</string>
+    <string name="rad">rad</string>
+    <string name="conh">conh</string>
+    <string name="sinh">sinh</string>
+    <string name="tanh">tanh</string>
+    <string name="π">π</string>
+    <string name="rand">rand</string>
+    <string name="rad1">Rad</string>
+    <string name="rand1">Rand</string>
+    <string name="oo">x!</string>
+    <string name="log100">log10</string>
+    <string name="ln">ln</string>
+    <string name="_2_x">2√x</string>
+    <string name="_3_x">3√x</string>
+    <string name="y_x">y√x</string>
+    <string name="undo">↻</string>
+    <string name="redo">↺</string>
+    <string name="backspace">⌫</string>
+    <string name="ac">AC</string>
+    <string name="c">C</string>
+    <string name="scientific">Scientific</string>
+
+</resources>

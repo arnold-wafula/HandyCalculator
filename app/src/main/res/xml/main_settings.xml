@@ -2,9 +2,13 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!--
+    app:iconSpaceReserved="false"
+    -->
+
     <PreferenceCategory
         android:title="@string/title_basic"
-        app:iconSpaceReserved="false">
+        android:icon="@drawable/icon_basic">
 
         <ListPreference
             android:title="@string/title_startup_calculator"
@@ -12,7 +16,8 @@
             app:iconSpaceReserved="false"
             android:dialogTitle="start"
             android:entries="@array/entries_startup_calculator"
-            android:entryValues="@array/values_startup_calculator" />
+            android:entryValues="@array/values_startup_calculator"
+            app:useSimpleSummaryProvider="true"/>
 
         <!--
         app:useSimpleSummaryProvider="true"
@@ -38,25 +43,13 @@
             android:key="@string/key_history"
             app:iconSpaceReserved="false"
             android:defaultValue="true"
-            android:summary="" />
-
-        <CheckBoxPreference
-            android:dependency="@string/key_history"
-            android:title="@string/title_history_clear"
-            android:key="@string/key_history_clear"
-            app:iconSpaceReserved="false" />
-
-        <CheckBoxPreference
-            android:dependency="@string/key_history"
-            android:title="@string/title_history_save"
-            android:key="@string/key_history_save"
-            app:iconSpaceReserved="false" />
+            android:summary="@string/summary_history" />
 
     </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/title_customization"
-        app:iconSpaceReserved="false">
+        android:icon="@drawable/icon_customization">
 
         <Preference
             android:title="@string/title_appearance"
@@ -73,6 +66,7 @@
             android:entryValues="@array/values_language"
             app:useSimpleSummaryProvider="true" />
 
+        <!--
         <ListPreference
             android:title="@string/title_font"
             android:key="@string/key_font"
@@ -81,6 +75,7 @@
             android:entries="@array/entries_font"
             android:entryValues="@array/values_font"
             app:useSimpleSummaryProvider="true" />
+        -->
 
         <SeekBarPreference
             android:title="@string/title_font_size"
@@ -100,7 +95,7 @@
 
     <PreferenceCategory
         android:title="@string/title_donate"
-        app:iconSpaceReserved="false">
+        android:icon="@drawable/icon_contribute">
 
         <Preference
             android:title="@string/title_donate_coffee"
@@ -117,11 +112,16 @@
             android:key="@string/key_share_app"
             app:iconSpaceReserved="false" />
 
+            <!--
+            <intent
+                android:action="android.intent.action.SEND"
+                android:data="@string/title_share_app" />
+            -->
     </PreferenceCategory>
 
     <PreferenceCategory
         android:title="@string/title_about"
-        app:iconSpaceReserved="false">
+        android:icon="@drawable/icon_about">
 
         <Preference
             android:title="@string/title_version"
@@ -132,11 +132,6 @@
         <Preference
             android:title="@string/title_app_details"
             android:key="@string/key_app_details"
-            app:iconSpaceReserved="false" />
-
-        <Preference
-            android:title="@string/title_privacy_policy"
-            android:key="@string/key_privacy_policy"
             app:iconSpaceReserved="false" />
 
     </PreferenceCategory>

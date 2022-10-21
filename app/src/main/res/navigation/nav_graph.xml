@@ -3,26 +3,94 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@+id/nav_home">
 
     <fragment
-        android:id="@+id/FirstFragment"
-        android:name="com.lemonboy.nostalculator.FirstFragment"
-        android:label="@string/first_fragment_label"
-        tools:layout="@layout/fragment_first">
+        android:id="@+id/nav_home"
+        android:name="com.lemonboy.handycalculator.ui.calculator.CalculatorFragment"
+        android:label="@string/calc_fragment_label"
+        tools:layout="@layout/calculator_fragment">
 
+        <!--
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_nav_home_to_historyFragment"
+            app:destination="@id/historyFragment"/>
+        -->
+
     </fragment>
+
     <fragment
-        android:id="@+id/SecondFragment"
-        android:name="com.lemonboy.nostalculator.SecondFragment"
-        android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_second">
+        android:id="@+id/nav_weight"
+        android:name="com.lemonboy.handycalculator.ui.weight.WeightFragment"
+        android:label="@string/menu_item_weight"
+        tools:layout="@layout/weight_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_currency"
+        android:name="com.lemonboy.handycalculator.ui.currency.CurrencyFragment"
+        android:label="@string/menu_item_currency"
+        tools:layout="@layout/currency_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_energy"
+        android:name="com.lemonboy.handycalculator.ui.energy.EnergyFragment"
+        android:label="@string/menu_item_energy"
+        tools:layout="@layout/energy_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_length"
+        android:name="com.lemonboy.handycalculator.ui.length.LengthFragment"
+        android:label="@string/menu_item_length"
+        tools:layout="@layout/length_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_temp"
+        android:name="com.lemonboy.handycalculator.ui.temperature.TempFragment"
+        android:label="@string/menu_item_temperature"
+        tools:layout="@layout/temp_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_volume"
+        android:name="com.lemonboy.handycalculator.ui.volume.VolumeFragment"
+        android:label="@string/menu_item_volume"
+        tools:layout="@layout/volume_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.lemonboy.handycalculator.ui.settings.SettingsFragment"
+        android:label="@string/menu_item_settings">
 
         <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
+            android:id="@+id/action_nav_settings_to_account_settings"
+            app:destination="@id/account_settings"/>
+
+        <action
+            android:id="@+id/action_nav_settings_to_support_settings"
+            app:destination="@id/support_settings" />
+
+        <!--
+        <action
+            android:id="@+id/action_nav_settings_to_supportSettings"
+            app:destination="@id/support_settings"/>
+        -->
+
     </fragment>
+
+    <fragment
+        android:id="@+id/account_settings"
+        android:name="com.lemonboy.handycalculator.ui.settings.AccountSettingsFragment"
+        android:label="@string/menu_account_settings"/>
+
+    <!--
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.lemonboy.handycalculator.ui.history.HistoryFragment"
+        android:label="@string/menu_history_settings"/>
+    -->
+
+    <dialog
+        android:id="@+id/support_settings"
+        android:name="com.lemonboy.handycalculator.ui.settings.SupportDevDialog"
+        android:label="@string/menu_support_settings"/>
+
 </navigation>
