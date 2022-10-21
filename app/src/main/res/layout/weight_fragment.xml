@@ -8,54 +8,144 @@
     android:layout_margin="16dp"
     tools:context=".ui.weight.WeightFragment">
 
-    <Spinner
-        android:id="@+id/grams_spinner"
+    <!--
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/selectWeightTop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:prompt="@string/grams"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/weightValueTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Grams"
+            android:inputType="none"
+            android:spinnerMode="dialog" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    -->
+
+    <Spinner
+        android:id="@+id/spinnerWeightValueTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp" />
 
+    <!--
+    android:prompt="@string/grams"
+    -->
+
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/gram_layout"
+        android:id="@+id/layoutWeightValueTop"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+
+        <!--
         android:hint="@string/grams"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        -->
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/grams"
+            android:id="@+id/etWeightValueTop"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            tools:text="--"
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="end"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
-    <Spinner
-        android:id="@+id/kilo_spinner"
+    <!--
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/selectWeightBottom"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:prompt="@string/kilograms"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/weightValueBottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Kilograms"
+            android:inputType="none"
+            android:spinnerMode="dialog" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    -->
+
+    <!--
+    android:prompt="@string/kilograms"
+    -->
+
+    <Spinner
+        android:id="@+id/spinnerWeightValueBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dialog"
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp" />
 
+    <!--
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/kilo_layout"
+        android:id="@+id/layoutWeightValueBottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/kilograms"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
 
+        android:hint="@string/kilograms"
+
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/kilograms"
+            android:id="@+id/etWeightValueBottom"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+
+            android:inputType="number"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="end" />
 
     </com.google.android.material.textfield.TextInputLayout>
+    -->
+
+    <TextView
+        android:id="@+id/txtWeightValueBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="end"
+        tools:text="--" />
+
+    <Button
+        android:id="@+id/showBottomSheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/convert"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp" />
 
 </LinearLayout>
